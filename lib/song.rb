@@ -12,4 +12,3 @@ class Song
 
 end
 
-song = Song.create
