@@ -10,10 +10,5 @@ class Song
     self.class.all << self
   end
 
-  def self.create
-    song = Song.create
-    @@all << song
-  end
   
-end
 
