@@ -10,5 +10,7 @@ class Song
     self.class.all << self
   end
 
+song = Song.create
 end
 
+end
